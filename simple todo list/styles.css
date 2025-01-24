@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+h1,
+h2 {
+    font-family: 'Monserrat', sans-serif;
+}
+
+body {
+    font-family: 'JetBrains Mono', monospace;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 12px;
+    min-height: 100vh;
+}
+
+h1 {
+    text-emphasis: '🔥';
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+form textarea {
+    resize: none;
+    width: 100%;
+    min-height: 60px;
+    padding: 14px;
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.todoContainer,
+.todo {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.todo {
+    padding: 12px;
+    border-radius: 4px;
+    border: 1px solid lightgray;
+}
+
+.btnContainer {
+    display: flex;
+    gap: 8px;
+    justify-content: left;
+}
+
+.iconBtn {
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0 4px;
+    display: grid;
+    place-items: center;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+
+.iconBtn:hover {
+    background: rgb(174, 174, 174);
+}
