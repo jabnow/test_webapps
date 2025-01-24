@@ -1,5 +1,5 @@
-# 
-my project path to learning basic webdesign
+# Site Test Path
+my repo of projects to learning basic webdesign, UI/UX 
 
 | Date          | Project           | Today I learned....       |
 | ------------- | -------------     | -------------
